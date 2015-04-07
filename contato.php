@@ -54,7 +54,12 @@
               <input class="form-control" id="exampleInputPassword1"
               placeholder="Entre com a sua mensagem" type="text">
             </div>
-            <button type="submit" class="btn btn-default btn-lg">Enviar</button>
+                <script>
+                function mensagem(){
+                    alert("Dados enviados com sucesso!");
+                }
+                </script>  
+            <button type="submit" onclick="mensagem()" class="btn btn-default btn-lg">Enviar</button>
             <button type="submit" class="btn btn-default btn-lg">Cancelar</button>
           </form>
         </div>
